@@ -31,13 +31,8 @@
                             <div class="search-input-inner">
                                 <select class="custom-select">
                                     <option value="hide">All Catagory</option>
-                                    <option value="all">All</option>
-                                    <option value="men">Men</option>
-                                    <option value="women">Women</option>
-                                    <option value="shoes">Shoes</option>
-                                    <option value="shoes">Glasses</option>
-                                    <option value="shoes">Bags</option>
-                                    <option value="shoes">Assesories</option>
+                                   
+                                     
                                 </select>
                                 <div class="input-div">
                                     <div class="search-input-icon"><i class="rt-search mr--10"></i>Search</div>
@@ -45,7 +40,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="{{ route('index') }}" class="logo"><img src="{{ asset('assets/images/logo2.png') }}" alt="weiboo-logo"></a>
+                        <a href="{{ route('index') }}" class="logo"><img src="{{ asset('assets/images/logo22.webp') }}" alt="weiboo-logo" width="150px"></a>
                         <div class="navbar-select-area">
                             <select class="topbar-select custom-select">
                                 <option value="eng">Eng</option>
@@ -75,12 +70,12 @@
                             </div>
                             <div class="cart action-item">
                                 <div class="cart-nav">
-                                    <div class="cart-icon icon"><i class="rt-cart"></i><span
+                                    <div class="icon"><a href="{{ route('index') }}"><i class="rt-cart"></i></a><span
                                             class="wishlist-dot icon-dot">3</span></div>
                                 </div>
                             </div>
                             <div class="wishlist action-item">
-                                <div class="favourite-icon icon"><a href="{{ route('wishlist') }}"><i class="rt-heart"></i></a>
+                                <div class="favourite-icon icon"><a href="{{ route('index') }}"><i class="rt-heart"></i></a>
                                 </div>
                             </div>
                             <a href="{{ route('login') }}" class="account"><i class="rt-user-2"></i></a>
@@ -99,7 +94,7 @@
                             <div class="icon"><img src="{{ asset('assets/images/icons/percent-tag.png') }}" alt="tag-icon"></div>
                             <div class="content">
                                 <span class="title">COUPON CODE</span>
-                                <span class="code">WEIBOO45%</span>
+                                <span class="code">Gamings45%</span>
                             </div>
                         </div>
                         <div class="rts-menu">
@@ -109,16 +104,16 @@
                                                 class="rt-plus"></i></a>
                                      
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Shop <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/about/">Shop <i
                                                 class="rt-plus"></i></a>
                                         
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Pages <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/portfolio/">Pages <i
                                                 class="rt-plus"></i></a>
                                       
                                     </li>
 
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Blog <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/mts_gig_service/">Blog <i
                                                 class="rt-plus"></i></a>
                                       
                                     </li>
@@ -288,11 +283,11 @@
                         </ul>
                     </li>
                     <li class="has-dropdown firstlvl">
-                        <a class="mm-link" href="{{ route('shop') }}">Shop <i class="rt-angle-down"></i></a>
+                        <a class="mm-link" href="{{ route('index') }}">Shop <i class="rt-angle-down"></i></a>
                         <ul class="sub-menu mega-dropdown-mobile">
                             <li class="mega-dropdown-li">
                                 <ul class="mega-dropdown-ul mm-show">
-                                    <li class="dropdown-li"><a class="dropdown-link" href="{{ route('shop') }}">Shop</a>
+                                    <li class="dropdown-li"><a class="dropdown-link" href="{{ route('index') }}">Shop</a>
                                     </li>
                                     <li class="dropdown-li"><a class="dropdown-link" href="{{ route('sidebarLeft') }}">Left
                                             Sidebar
@@ -412,13 +407,13 @@
                                 <h2 class="widget-title">All Categories <i class="rt-angle-down"></i></h2>
                                 <nav>
                                     <ul>
-                                        <li><a href="{{ route('shop') }}">Action <i class="rt rt-arrow-right-long"></i></a></li>
-                                        <li><a href="{{ route('shop') }}">Adventure <i class="rt rt-arrow-right-long"></i></a></li>
-                                        <li><a href="{{ route('shop') }}">Ghost Story <i class="rt rt-arrow-right-long"></i></a></li>
-                                        <li><a href="{{ route('shop') }}">Racing <i class="rt rt-arrow-right-long"></i></a></li>
-                                        <li><a href="{{ route('shop') }}">Cell Phones <i class="rt rt-arrow-right-long"></i></a></li>
-                                        <li><a href="{{ route('shop') }}">Electronics <i class="rt rt-arrow-right-long"></i></a></li>
-                                        <li><a href="{{ route('shop') }}">Gaming <i class="rt rt-arrow-right-long"></i></a></li>
+                                        <li><a href="{{ route('index') }}">Action <i class="rt rt-arrow-right-long"></i></a></li>
+                                        <li><a href="{{ route('index') }}">Adventure <i class="rt rt-arrow-right-long"></i></a></li>
+                                        <li><a href="{{ route('index') }}">Ghost Story <i class="rt rt-arrow-right-long"></i></a></li>
+                                        <li><a href="{{ route('index') }}">Racing <i class="rt rt-arrow-right-long"></i></a></li>
+                                        <li><a href="{{ route('index') }}">Cell Phones <i class="rt rt-arrow-right-long"></i></a></li>
+                                        <li><a href="{{ route('index') }}">Electronics <i class="rt rt-arrow-right-long"></i></a></li>
+                                        <li><a href="{{ route('index') }}">Gaming <i class="rt rt-arrow-right-long"></i></a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -433,7 +428,7 @@
                                             <div class="single-inner">
                                                 <div class="content-box">
                                                     <h2 class="slider-title"> CALL OF <br> DUTY GAMES</h2>
-                                                    <a href="{{ route('shop') }}" class="slider-btn2">View Collections</a>
+                                                    <a href="{{ route('index') }}" class="slider-btn2">View Collections</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -445,7 +440,7 @@
                                             <div class="single-inner">
                                                 <div class="content-box">
                                                     <h2 class="slider-title"> BLADEPOINT MORUS <br> CUP SEASON 2</h2>
-                                                    <a href="{{ route('shop') }}" class="slider-btn2">View Collections</a>
+                                                    <a href="{{ route('index') }}" class="slider-btn2">View Collections</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -457,7 +452,7 @@
                                             <div class="single-inner">
                                                 <div class="content-box">
                                                     <h2 class="slider-title"> NEW GAMES <br> FOR RANDOM CLICK</h2>
-                                                    <a href="{{ route('shop') }}" class="slider-btn2">View Collections</a>
+                                                    <a href="{{ route('index') }}" class="slider-btn2">View Collections</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -490,7 +485,7 @@
                                 <img src="{{ asset('assets/images/products/home8/game01.webp') }}" alt="">
                             </div>
                             <div class="bottom-text">
-                                <a href="{{ route('shop') }}" class="sub-title">New Collections</a>
+                                <a href="{{ route('index') }}" class="sub-title">New Collections</a>
                                 <h3 class="title">X24 Remote Game</h3>
                             </div>
                         </div>
@@ -501,7 +496,7 @@
                                 <img src="{{ asset('assets/images/products/home8/fifa.webp') }}" alt="">
                             </div>
                             <div class="bottom-text">
-                                <a href="{{ route('shop') }}" class="sub-title">New Collections</a>
+                                <a href="{{ route('index') }}" class="sub-title">New Collections</a>
                                 <h3 class="title">Fifa World Cup 2023</h3>
                             </div>
                         </div>
@@ -512,7 +507,7 @@
                                 <img src="{{ asset('assets/images/products/home8/samuri.webp') }}" alt="">
                             </div>
                             <div class="bottom-text">
-                                <a href="{{ route('shop') }}" class="sub-title">New Collections</a>
+                                <a href="{{ route('index') }}" class="sub-title">New Collections</a>
                                 <h3 class="title">Samurai Boost Game</h3>
                             </div>
                         </div>
@@ -530,22 +525,22 @@
                 <div class="section-header section-header3">
                     <div class="wrapper">
                         <h2 class="title">Latest Games</h2>
-                        <a href="{{ route('shop') }}" class="section-button">Veiw All</a>
+                        <a href="{{ route('index') }}" class="section-button">Veiw All</a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image">
+                            <a href="{{ route('index') }}" class="product-image">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home8/gun-410x410.webp') }}" alt="product-image">
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Online Action Game</a>
+                                <a href="{{ route('index') }}" class="product-name">Online Action Game</a>
                                 <div class="action-wrap">
                                     <span class="price">$39.00</span>
-                                    <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
                                 </div>
                             </div>
                             <div class="quick-action-button">
@@ -553,23 +548,23 @@
                                     <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
-                                    <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
+                                    <a href="{{ route('index') }}"><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image">
+                            <a href="{{ route('index') }}" class="product-image">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home8/action-410x410.webp') }}" alt="product-image">
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Life Of Gun</a>
+                                <a href="{{ route('index') }}" class="product-name">Life Of Gun</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
-                                    <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
                                 </div>
                             </div>
                             <div class="quick-action-button">
@@ -577,7 +572,7 @@
                                     <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
-                                    <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
+                                    <a href="{{ route('index') }}"><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="product-features">
@@ -587,16 +582,16 @@
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image">
+                            <a href="{{ route('index') }}" class="product-image">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home8/racing-410x410.webp') }}" alt="product-image">
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Speed Racing Game</a>
+                                <a href="{{ route('index') }}" class="product-name">Speed Racing Game</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
-                                    <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
                                 </div>
                             </div>
                             <div class="quick-action-button">
@@ -604,7 +599,7 @@
                                     <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
-                                    <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
+                                    <a href="{{ route('index') }}"><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="product-features">
@@ -614,16 +609,16 @@
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image">
+                            <a href="{{ route('index') }}" class="product-image">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home8/Carmaker-410x410.webp') }}" alt="product-image">
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Action With Jailer</a>
+                                <a href="{{ route('index') }}" class="product-name">Action With Jailer</a>
                                 <div class="action-wrap">
                                     <span class="price">$250.00</span>
-                                    <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
                                 </div>
                             </div>
                             <div class="quick-action-button">
@@ -631,14 +626,14 @@
                                     <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
-                                    <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
+                                    <a href="{{ route('index') }}"><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image">
+                            <a href="{{ route('index') }}" class="product-image">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home8/game2-410x410.webp') }}" alt="product-image">
                                 </div>
@@ -647,7 +642,7 @@
                                 <a href="{{ route('productDetails') }}" class="product-name">Legends Of Runeterra</a>
                                 <div class="action-wrap">
                                     <span class="price">$100.00</span>
-                                    <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
                                 </div>
                             </div>
                             <div class="quick-action-button">
@@ -655,23 +650,23 @@
                                     <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
-                                    <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
+                                    <a href="{{ route('index') }}"><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image">
+                            <a href="{{ route('index') }}" class="product-image">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home8/gaming-410x410.webp') }}" alt="product-image">
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Genchin Impact</a>
+                                <a href="{{ route('index') }}" class="product-name">Genchin Impact</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
-                                    <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
                                 </div>
                             </div>
                             <div class="quick-action-button">
@@ -679,23 +674,23 @@
                                     <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
-                                    <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
+                                    <a href="{{ route('index') }}"><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image">
+                            <a href="{{ route('index') }}" class="product-image">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home8/ghost-410x410.webp') }}" alt="product-image">
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Royale Ghost Story</a>
+                                <a href="{{ route('index') }}" class="product-name">Royale Ghost Story</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
-                                    <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
                                 </div>
                             </div>
                             <div class="quick-action-button">
@@ -703,23 +698,23 @@
                                     <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
-                                    <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
+                                    <a href="{{ route('index') }}"><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-6 col-12">
                         <div class="product-item element-item1">
-                            <a href="{{ route('productDetails') }}" class="product-image">
+                            <a href="{{ route('index') }}" class="product-image">
                                 <div class="image-vari1 image-vari"><img
                                         src="{{ asset('assets/images/products/home8/cod-410x410.jpg') }}" alt="product-image">
                                 </div>
                             </a>
                             <div class="bottom-content">
-                                <a href="{{ route('productDetails') }}" class="product-name">Call Of Duty</a>
+                                <a href="{{ route('index') }}" class="product-name">Call Of Duty</a>
                                 <div class="action-wrap">
                                     <span class="price">$220.00</span>
-                                    <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i> Add to Cart</a>
                                 </div>
                             </div>
                             <div class="quick-action-button">
@@ -727,7 +722,7 @@
                                     <button class="product-details-popup-btn"><i class="far fa-eye"></i></button>
                                 </div>
                                 <div class="cta-single cta-wishlist">
-                                    <a href="{{ route('wishlist') }}"><i class="far fa-heart"></i></a>
+                                    <a href="{{ route('index') }}"><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -805,7 +800,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-15 col-md-4 col-sm-6">
-                    <a href="{{ route('shop') }}" class="service-item">
+                    <a href="{{ route('index') }}" class="service-item">
                         <div class="service-icon"><img src="{{ asset('assets/images/products/home8/cat-action.jpg') }}" alt="service-icon"></div>
                         <div class="contents">
                             <h3 class="service-title">Action</h3>
@@ -814,7 +809,7 @@
                     </a>
                 </div>
                 <div class="col-lg-15 col-md-4 col-sm-6">
-                    <a href="{{ route('shop') }}" class="service-item">
+                    <a href="{{ route('index') }}" class="service-item">
                         <div class="service-icon"><img src="{{ asset('assets/images/products/home8/game2.webp') }}" alt="service-icon">
                         </div>
                         <div class="contents">
@@ -824,7 +819,7 @@
                     </a>
                 </div>
                 <div class="col-lg-15 col-md-4 col-sm-6">
-                    <a href="{{ route('shop') }}" class="service-item">
+                    <a href="{{ route('index') }}" class="service-item">
                         <div class="service-icon"><img src="{{ asset('assets/images/products/home8/modern-cars.jpg') }}" alt="service-icon">
                         </div>
                         <div class="contents">
@@ -834,7 +829,7 @@
                     </a>
                 </div>
                 <div class="col-lg-15 col-md-4 col-sm-6">
-                    <a href="{{ route('shop') }}" class="service-item">
+                    <a href="{{ route('index') }}" class="service-item">
                         <div class="service-icon"><img src="{{ asset('assets/images/products/home8/120.jpg') }}" alt="service-icon"></div>
                         <div class="contents">
                             <h3 class="service-title">Racing</h3>
@@ -843,7 +838,7 @@
                     </a>
                 </div>
                 <div class="col-lg-15 col-md-4 col-sm-6">
-                    <a href="{{ route('shop') }}" class="service-item">
+                    <a href="{{ route('index') }}" class="service-item">
                         <div class="service-icon"><img src="{{ asset('assets/images/products/home8/samuri.webp') }}" alt="service-icon"></div>
                         <div class="contents">
                             <h3 class="service-title">Gaming</h3>
@@ -1022,7 +1017,7 @@
                 <div class="row">
                     <div class="col-xl-3 col-md-6 col-sm-6 box-widget-col">
                         <div class="footer-widget footer-box-widget">
-                            <div class="footer-logo"><img src="{{ asset('assets/images/logo2.png') }}" alt="footer-logo"></div>
+                            <div class="footer-logo"><img src="{{ asset('assets/images/logo22.webp') }}" alt="footer-logo"></div>
                             <p>Solid is the information & experience
                                 directed at an end-user</p>
                             <div class="quick-contact">
@@ -1038,8 +1033,8 @@
                                     <div class="icon"><img src="{{ asset('assets/images/icons/mail2.png') }}" alt="phone-icon">
                                     </div>
                                     <div class="contact-info">
-                                        <a href="mailto:pixcelsthemes@gmail.com"
-                                            class="email-address info">pixcelsthemes@gmail.com</a>
+                                        <a href="mailto:maktechsolution@gmail.com"
+                                            class="email-address info">maktechsolution@gmail.com</a>
                                         <span class="title">Get Support</span>
                                     </div>
                                 </div>
@@ -1120,7 +1115,7 @@
             <div class="container">
                 <div class="footer-bottom-inner">
                     <span class="copyright">Copyright & Design By <a href="http://PixcelsThemes.com" class="brand"
-                            target="_blank">PixcelsThemes</a> -2024</span>
+                            target="_blank">maktechsolution</a> -2024</span>
                 </div>
             </div>
         </div>
