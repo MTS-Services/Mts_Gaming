@@ -30,9 +30,7 @@
                         <div class="navbar-search-area">
                             <div class="search-input-inner">
                                 <select class="custom-select">
-                                    <option value="hide">All Catagory</option>
-                                   
-                                     
+                                    <option value="hide">All Catagory</option>                                     
                                 </select>
                                 <div class="input-div">
                                     <div class="search-input-icon"><i class="rt-search mr--10"></i>Search</div>
