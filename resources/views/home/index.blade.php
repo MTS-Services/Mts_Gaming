@@ -100,20 +100,20 @@
                         <div class="rts-menu">
                             <nav class="menus menu-toggle">
                                 <ul class="nav__menu">
-                                    <li class="has-dropdown"><a class="menu-item active1" href="#">Home <i
+                                    <li class="has-dropdown"><a class="menu-item active1" href="/">Home <i
                                                 class="rt-plus"></i></a>
                                      
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/about/">Shop <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#latest_games" >Latest Games <i
                                                 class="rt-plus"></i></a>
                                         
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/portfolio/">Pages <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#Latest_News">Latest News <i
                                                 class="rt-plus"></i></a>
                                       
                                     </li>
 
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/mts_gig_service/">Blog <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#About_Us">About Us <i
                                                 class="rt-plus"></i></a>
                                       
                                     </li>
@@ -325,7 +325,7 @@
                                 <ul class="mega-dropdown-ul mm-show">
                                     <li class="dropdown-li"><a class="dropdown-link" href="{{ route('cart') }}">Cart
                                         </a>
-                                    </li>
+                                    </li> 
                                     <li class="dropdown-li"><a class="dropdown-link" href="{{ route('checkOut') }}">Checkout</a>
                                     </li>
                                     <li class="dropdown-li"><a class="dropdown-link" href="{{ route('account') }}">My
@@ -343,7 +343,7 @@
                             <li><a href="{{ route('errorPage') }}">Error 404</a></li>
                         </ul>
                     </li>
-                    <li class="has-dropdown firstlvl">
+                    <li class="has-dropdown firstlvl">  
                         <a class="mm-link" href="{{ route('news') }}">Blog <i class="rt-angle-down"></i></a>
                         <ul class="sub-menu">
                             <li><a href="{{ route('news') }}">Blog</a></li>
@@ -353,7 +353,7 @@
                     </li>
                     <li><a class="mm-link" href="{{ route('contact') }}">Contact</a></li>
                 </ul>
-            </nav>
+            </nav>  
             <div class="header-action-items header-action-items1 header-action-items-side">
                 <div class="search-part">
                     <div class="search-icon action-item icon"><i class="rt-search"></i></div>
@@ -379,16 +379,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="cart action-item">
-                    <div class="cart-nav">
+                <div class="cart action-item"> 
+                    <div class="cart-nav"> 
                         <div class="cart-icon icon"><i class="rt-cart"></i><span class="wishlist-dot icon-dot">3</span>
                         </div>
                     </div>
                 </div>
                 <div class="wishlist action-item">
                     <div class="favourite-icon icon"><i class="rt-heart"></i><span class="cart-dot icon-dot">0</span>
-                    </div>
-                </div>
+                    </div> 
+                </div> 
                 <a href="{{ route('login') }}" class="account"><i class="rt-user-2"></i></a>
             </div>
             <!-- side-mobile-menu end -->
@@ -404,9 +404,9 @@
                     <div class="col-xl-2 col-md-4 col-sm-12 gutter-1">
                         <div class="catagory-sidebar">
                             <div class="widget-bg">
-                                <h2 class="widget-title">All Categories <i class="rt-angle-down"></i></h2>
+                                {{-- <h2 class="widget-title">GAMES <i class="rt-angle-down"></i></h2> --}}
                                 <nav>
-                                    <ul>
+                                    {{-- <ul>
                                         <li><a href="{{ route('index') }}">Action <i class="rt rt-arrow-right-long"></i></a></li>
                                         <li><a href="{{ route('index') }}">Adventure <i class="rt rt-arrow-right-long"></i></a></li>
                                         <li><a href="{{ route('index') }}">Ghost Story <i class="rt rt-arrow-right-long"></i></a></li>
@@ -414,7 +414,7 @@
                                         <li><a href="{{ route('index') }}">Cell Phones <i class="rt rt-arrow-right-long"></i></a></li>
                                         <li><a href="{{ route('index') }}">Electronics <i class="rt rt-arrow-right-long"></i></a></li>
                                         <li><a href="{{ route('index') }}">Gaming <i class="rt rt-arrow-right-long"></i></a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </nav>
                             </div>
                         </div>
@@ -519,12 +519,12 @@
     <!-- ..::Offer Section End Here::.. -->
 
     <!-- ..::Featured Product Section Start Here::.. -->
-    <div class="rts-featured-product-section1 featured-product7 featured-product8">
+    <div class="rts-featured-product-section1 featured-product7 featured-product8" id="latest_games">
         <div class="container">
             <div class="rts-featured-product-section-inner">
                 <div class="section-header section-header3">
                     <div class="wrapper">
-                        <h2 class="title">Latest Games</h2>
+                        <h2 class="title" >Latest Games</h2>
                         <a href="{{ route('index') }}" class="section-button">Veiw All</a>
                     </div>
                 </div>
@@ -852,7 +852,7 @@
     <!-- ..::Newsletter Section End Here::.. -->
 
     <!-- ..::Feeds Section Start Here::.. -->
-    <div class="rts-feeds-section rts-feeds-section2 rts-feeds-section8 section-gap">
+    <div class="rts-feeds-section rts-feeds-section2 rts-feeds-section8 section-gap" id="Latest_News">
         <div class="container">
             <div class="section-header section-header4 section-header8">
                 <span class="section-pretitle">News</span>
@@ -1011,7 +1011,7 @@
     <!-- ..::Product-details Section End Here::.. -->
 
     <!-- ..::Footer Start Here::.. -->
-    <div class="footer footer-3 footer-4">
+    <div class="footer footer-3 footer-4" id="About_Us">
         <div class="container">
             <div class="footer-inner">
                 <div class="row">
