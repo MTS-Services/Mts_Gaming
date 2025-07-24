@@ -73,6 +73,4 @@ Route::prefix('pages')->group(function () {
 });
 
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+ 
