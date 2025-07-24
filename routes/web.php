@@ -71,3 +71,8 @@ Route::prefix('pages')->group(function () {
             Route::get('/newsGrid','newsGrid')->name('newsGrid');
     });
 });
+
+
+//Route::get('/', function () {
+//    return view('welcome');
+//});
