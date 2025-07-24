@@ -111,10 +111,10 @@
                                       
                                     </li>
 
-                                    <li class="has-dropdown"><a class="menu-item" href="#About_Us">About Us <i
+                                    {{-- <li class="has-dropdown"><a class="menu-item" href="#About_Us">About Us <i
                                                 class="rt-plus"></i></a>
                                       
-                                    </li>
+                                    </li> --}}
                                     <li><a class="menu-item" href="{{ route('contact') }}">Contact</a></li>
                                 </ul>
                             </nav>
